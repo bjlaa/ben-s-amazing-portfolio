@@ -12,4 +12,12 @@ describe('Editor', () => {
 
     expect(actual).to.equal(expected);
   });
+
+  it('should render a div with a container-editor className', () => {
+    const wrapper = shallow(<Editor />);
+    const expected = wrapper.find('div').prop('className');
+    const actual = 'container-editor';
+
+    expect(actual).to.equal(expected);
+  });
 });

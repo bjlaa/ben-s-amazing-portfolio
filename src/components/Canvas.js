@@ -5,7 +5,6 @@ class Canvas extends Component {
     const length = new Array(2660);
     const pixelNumber = Array.from(length.keys());
 
-    console.log(pixelNumber);
     const pixels = pixelNumber.map((e) => {
       return <div key={`pixel-${e}`} className={`pixel pixel-${e}`} />;
     });

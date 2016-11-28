@@ -2,12 +2,22 @@
   width: 1400px;
   height: 760px;
   margin: auto;
+  vertical-align: middle;
 }
 
 .editor {
-  width: 594px;
+  width: 595px;
   height: 355px;
   position: fixed;
-  transform: translate(400px, -660px);
-  z-index: 10
+  transform: translate(399px, -660px);
+  z-index: 10;
+  font-size: 30pt;
+  background: black;
+  border: 1px grey solid;
+  resize: none;
+  color: white;
+  vertical-align: middle;
+}
+.editor:focus {
+  outline: -webkit-focus-ring-color auto 0px;
 }
