@@ -1,0 +1,13 @@
+.container-editor {
+  width: 1400px;
+  height: 760px;
+  margin: auto;
+}
+
+.editor {
+  width: 594px;
+  height: 355px;
+  position: fixed;
+  transform: translate(400px, -660px);
+  z-index: 10
+}

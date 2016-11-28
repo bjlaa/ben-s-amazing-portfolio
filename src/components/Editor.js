@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class Editor extends Component {
   render() {
     return (
-      <textarea className="editor" />
+      <div className="container-editor">
+        <textarea className="editor" />
+      </div>
     );
   }
 }
