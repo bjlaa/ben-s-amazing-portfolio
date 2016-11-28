@@ -7,7 +7,356 @@
 }
 
 .pixel {
-  background: black; 
+  background: white;
+  outline: solid 1px black;
   height: 20px; 
   width: 20px;
 }
+// Drawing
+.canvas {
+  // Top Border monitor
+  :nth-child(159) {
+    background: black;
+  }
+  :nth-child(160) {
+    background: black;
+  }
+  :nth-child(161) {
+    background: black;
+  }
+  :nth-child(162) {
+    background: black;
+  }
+  :nth-child(163) {
+    background: black;
+  }
+  :nth-child(164) {
+    background: black;
+  }
+  :nth-child(165) {
+    background: black;
+  }
+  :nth-child(166) {
+    background: black;
+  }
+  :nth-child(167) {
+    background: black;
+  }
+  :nth-child(168) {
+    background: black;
+  }
+  :nth-child(169) {
+    background: black;
+  }
+  :nth-child(170) {
+    background: black;
+  }
+  :nth-child(171) {
+    background: black;
+  }
+  :nth-child(172) {
+    background: black;
+  }
+  :nth-child(173) {
+    background: black;
+  }
+  :nth-child(174) {
+    background: black;
+  }
+  :nth-child(175) {
+    background: black;
+  }
+  :nth-child(176) {
+    background: black;
+  }
+  :nth-child(177) {
+    background: black;
+  }
+  :nth-child(178) {
+    background: black;
+  }
+  :nth-child(179) {
+    background: black;
+  }
+  :nth-child(180) {
+    background: black;
+  }
+  :nth-child(181) {
+    background: black;
+  }
+  :nth-child(182) {
+    background: black;
+  }
+  :nth-child(183) {
+    background: black;
+  }
+  :nth-child(184) {
+    background: black;
+  }
+  :nth-child(185) {
+    background: black;
+  }
+  :nth-child(186) {
+    background: black;
+  }
+  :nth-child(187) {
+    background: black;
+  }
+  :nth-child(188) {
+    background: black;
+  }
+  :nth-child(189) {
+    background: black;
+  }
+  :nth-child(190) {
+    background: black;
+  }
+  :nth-child(191) {
+    background: black;
+  }
+  :nth-child(192) {
+    background: black;
+  }
+  // Left Border monitor
+  :nth-child(228) {
+    background: black;
+  }  
+  :nth-child(298) {
+    background: black;
+  }
+  :nth-child(368) {
+    background: black;
+  }
+  :nth-child(438) {
+    background: black;
+  }
+  :nth-child(508) {
+    background: black;
+  }
+  :nth-child(578) {
+    background: black;
+  }
+  :nth-child(648) {
+    background: black;
+  }
+  :nth-child(718) {
+    background: black;
+  }
+  :nth-child(788) {
+    background: black;
+  }
+  :nth-child(858) {
+    background: black;
+  }
+  :nth-child(928) {
+    background: black;
+  }
+  :nth-child(998) {
+    background: black;
+  }
+  :nth-child(1068) {
+    background: black;
+  }
+  :nth-child(1138) {
+    background: black;
+  }
+  :nth-child(1208) {
+    background: black;
+  }
+  :nth-child(1278) {
+    background: black;
+  }
+  :nth-child(1348) {
+    background: black;
+  }
+  :nth-child(1418) {
+    background: black;
+  }
+  :nth-child(1488) {
+    background: black;
+  }
+  :nth-child(1558) {
+    background: black;
+  }
+  :nth-child(1628) {
+    background: black;
+  }
+  // Bottom Border monitor
+  :nth-child(1698) {
+    background: black;
+  }
+  :nth-child(1699) {
+    background: black;
+  }
+  :nth-child(1700) {
+    background: black;
+  }
+  :nth-child(1701) {
+    background: black;
+  }
+  :nth-child(1702) {
+    background: black;
+  }
+  :nth-child(1703) {
+    background: black;
+  }
+  :nth-child(1704) {
+    background: black;
+  }
+  :nth-child(1705) {
+    background: black;
+  }
+  :nth-child(1706) {
+    background: black;
+  }
+  :nth-child(1707) {
+    background: black;
+  }
+  :nth-child(1708) {
+    background: black;
+  }
+  :nth-child(1709) {
+    background: black;
+  }
+  :nth-child(1710) {
+    background: black;
+  }
+  :nth-child(1711) {
+    background: black;
+  }
+  :nth-child(1712) {
+    background: black;
+  }
+  :nth-child(1713) {
+    background: black;
+  }
+  :nth-child(1714) {
+    background: black;
+  }
+  :nth-child(1715) {
+    background: black;
+  }
+  :nth-child(1716) {
+    background: black;
+  }
+  :nth-child(1717) {
+    background: black;
+  }
+  :nth-child(1718) {
+    background: black;
+  }
+  :nth-child(1719) {
+    background: black;
+  }
+  :nth-child(1720) {
+    background: black;
+  }
+  :nth-child(1721) {
+    background: black;
+  }
+  :nth-child(1722) {
+    background: black;
+  }
+  :nth-child(1723) {
+    background: black;
+  }
+  :nth-child(1724) {
+    background: black;
+  }
+  :nth-child(1725) {
+    background: black;
+  }
+  :nth-child(1726) {
+    background: black;
+  }
+  :nth-child(1727) {
+    background: black;
+  }
+  :nth-child(1728) {
+    background: black;
+  }
+  :nth-child(1729) {
+    background: black;
+  }
+  :nth-child(1730) {
+    background: black;
+  }
+  :nth-child(1731) {
+    background: black;
+  }
+  :nth-child(1732) {
+    background: black;
+  }
+  :nth-child(1733) {
+    background: black;
+  }
+  // Right Border monitor
+  :nth-child(263) {
+    background: black;
+  }
+  :nth-child(333) {
+    background: black;
+  }
+  :nth-child(403) {
+    background: black;
+  }
+  :nth-child(473) {
+    background: black;
+  }
+  :nth-child(543) {
+    background: black;
+  }
+  :nth-child(613) {
+    background: black;
+  }
+  :nth-child(683) {
+    background: black;
+  }
+  :nth-child(753) {
+    background: black;
+  }
+  :nth-child(823) {
+    background: black;
+  }
+  :nth-child(893) {
+    background: black;
+  }
+  :nth-child(963) {
+    background: black;
+  }
+  :nth-child(1033) {
+    background: black;
+  }
+  :nth-child(1103) {
+    background: black;
+  }
+  :nth-child(1173) {
+    background: black;
+  }
+  :nth-child(1243) {
+    background: black;
+  }
+  :nth-child(1313) {
+    background: black;
+  }
+  :nth-child(1383) {
+    background: black;
+  }
+  :nth-child(1453) {
+    background: black;
+  }
+  :nth-child(1523) {
+    background: black;
+  }  
+  :nth-child(1593) {
+    background: black;
+  }
+  :nth-child(1663) {
+    background: black;
+  }
+}
+
+
+
+
+
