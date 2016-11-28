@@ -1,18 +1,18 @@
-import React from 'react';
-import {Link} from 'react-router';
+import React, { Component } from 'react';
+import Canvas from './Canvas';
 
-const HomePage = () => {
-  return (
-    <div>
-      <h1>React Slingshot</h1>
+class HomePage extends Component {
+  componentDidMount() {
 
-      <h2>Get Started</h2>
-      <ol>
-        <li>Review the <Link to="fuel-savings">demo app</Link></li>
-        <li>Remove the demo and start coding: npm run remove-demo</li>
-      </ol>
-    </div>
-  );
-};
+  }
+
+  render() {
+    return (
+      <div>
+        <Canvas />
+      </div>
+    );    
+  }
+}
 
 export default HomePage;
