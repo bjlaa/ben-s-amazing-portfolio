@@ -11,7 +11,7 @@ class HomePage extends Component {
       <div>
         <Canvas />
       </div>
-    );    
+    );
   }
 }
 
