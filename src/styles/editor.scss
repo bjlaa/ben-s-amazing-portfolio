@@ -17,7 +17,72 @@
   resize: none;
   color: white;
   vertical-align: middle;
+  text-align: center;
+  font-family: RetroComputer;
 }
 .editor:focus {
   outline: -webkit-focus-ring-color auto 0px;
+}
+
+.editor-subtitle {
+  font-size: 16pt;
+}
+
+.editor-nav {
+  margin-top: 60px;
+  font-size: 20pt;
+  display: flex;
+  flex-wrap: wrap;
+  animation: showNav 5s forwards;
+}
+
+@keyframes showNav {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.editor-nav-link {
+  width: 33.3%;
+}
+.editor-nav-link a {
+  color: blue;
+  text-decoration: none;
+}
+.editor-nav-link a:hover {
+  text-decoration: underline;
+  transition: text-decoration 0.3s;
+}
+.editor-nav-link a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 1s infinite;
+  -moz-animation: blink 1s infinite;
+  animation: blink 1s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

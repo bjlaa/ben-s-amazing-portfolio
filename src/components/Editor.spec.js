@@ -5,19 +5,15 @@ import { expect } from 'chai';
 import Editor from './Editor';
 
 describe('Editor', () => {
-  it('should render a textarea with an editor className ', () => {
-    const wrapper = shallow(<Editor />);
-    const expected = wrapper.find('textarea').prop('className');
-    const actual = 'editor';
-
-    expect(actual).to.equal(expected);
-  });
-
   it('should render a div with a container-editor className', () => {
     const wrapper = shallow(<Editor />);
-    const expected = wrapper.find('div').prop('className');
-    const actual = 'container-editor';
 
-    expect(actual).to.equal(expected);
+    expect(wrapper.find('div.container-editor')).to.have.length(1);
+  });
+
+  it('should render a div with an editor className ', () => {
+    const wrapper = shallow(<Editor />);
+
+    expect(wrapper.find('div.editor')).to.have.length(1);
   });
 });
