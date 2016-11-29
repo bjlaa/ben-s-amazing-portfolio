@@ -22,7 +22,7 @@
 
 
 
-
+/*eslint-disable */
 ! function($) {
 
 	"use strict";
@@ -436,3 +436,4 @@
 
 
 }(window.jQuery);
+/*eslint-enable */

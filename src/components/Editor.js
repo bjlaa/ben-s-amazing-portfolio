@@ -10,10 +10,10 @@ class Editor extends Component {
     this.renderText = this.renderText.bind(this);
   }
   componentDidMount() {
-    const title = $('.editor-title');
-    title.typed({
-      strings: ["<br>Hi, I'm Ben^",
-      "<br>Welcome to my <br><br>Portfolio! <br><br><br><br><br><br><span class='editor-subtitle'>Please choose your level:</span>"],
+    const text = $('.editor-text');
+    text.typed({
+      strings: ["<br><br>Hi, I'm Ben^",
+      "<br><br>Welcome to my <br><br>Portfolio! <br><br><br><br><br><br><span class='editor-subtitle'>Please choose your level:</span>"],
       typeSpeed: 0.5,
       contentType: 'html',
     });
@@ -26,10 +26,10 @@ class Editor extends Component {
     return (
       <div className="container-editor">
         <div ref={(editor) => this.editor = editor} className="editor">
-          <span className="editor-title" />
+          <span className="editor-text" />
           <div className="editor-nav">
             <div className="editor-nav-link">
-              <Link to="">Work</Link>
+              <Link to="fuel-savings">Work</Link>
             </div>
             <div className="editor-nav-link">
               <Link to="">Skills</Link>

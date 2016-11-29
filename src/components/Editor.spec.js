@@ -16,4 +16,16 @@ describe('Editor', () => {
 
     expect(wrapper.find('div.editor')).to.have.length(1);
   });
+
+  it('should render a div with an editor-nav className', () => {
+    const wrapper = shallow(<Editor />);
+
+    expect(wrapper.find('div.editor-nav')).to.have.length(1);
+  });
+
+  it('should render 3 div with an editor-nav-link className', () => {
+    const wrapper = shallow(<Editor />);
+
+    expect(wrapper.find('div.editor-nav-link')).to.have.length(3);
+  });
 });

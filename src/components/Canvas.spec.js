@@ -13,9 +13,9 @@ describe('Canvas', () => {
     expect(actual).to.equal(expected);
   });
 
-  it('should render 2660 pixels divs', () => {
+  it('should render 2730 pixels divs', () => {
     const wrapper = shallow(<Canvas />);
 
-    expect(wrapper.find('div.pixel')).to.have.length(2660);
+    expect(wrapper.find('div.pixel')).to.have.length(2730);
   });
 });

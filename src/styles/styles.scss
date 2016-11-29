@@ -22,6 +22,12 @@ body {
   overflow: hidden;
 }
 
+#app {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
 td {
 	padding: 12px;
 }
@@ -35,5 +41,6 @@ h2 {
 input.small { width: 46px; }
 td.fuel-savings-label { width: 175px; }
 
+@import 'homepage';
 @import 'canvas';
 @import 'editor';

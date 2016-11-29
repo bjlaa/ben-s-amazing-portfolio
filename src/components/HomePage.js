@@ -9,7 +9,7 @@ class HomePage extends Component {
 
   render() {
     return (
-      <div>
+      <div className="homepage">
         <Canvas />
         <Editor />
       </div>
