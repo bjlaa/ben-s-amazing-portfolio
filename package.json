@@ -1,7 +1,7 @@
 {
-  "name": "ben-s-amazing-portfolio",
+  "name": "windows-98-simulator",
   "version": "0.1.0",
-  "description": "A cool app showing my work.",
+  "description": "A cool app using pixel art to showcase a simulation of windows 98's coolest feature. ",
   "engines": {
     "npm": ">=3"
   },
